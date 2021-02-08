@@ -7,6 +7,4 @@ def square_array(numbers)
     new_numbers.to_i ** 2
     count += 1
   end
-  array(numbers)
-  array(new_numbers)
 end
