@@ -3,6 +3,6 @@ def square_array(array)
   while count < 1 do
     array[count] ** 2
     count += 1
-    array
   end
+  array
 end
