@@ -1,6 +1,6 @@
-def square_array(array, limit)
+def square_array(array)
   count = 0
-  while count < limit do
+  while count < 1 do
     array.to_i ** 2
     count += 1
     array
