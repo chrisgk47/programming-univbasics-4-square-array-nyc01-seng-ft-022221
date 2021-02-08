@@ -8,14 +8,3 @@ def square_array(numbers)
   end
   numbers
 end
-
-def square_array(new_numbers)
-  new_numbers = [9, 10, 16, 25]
-  count = 0
-
-  while count <new_numbers.length do
-    new_numbers[count] ** 2
-    count += 1
-  end
-  new_numbers
-end
