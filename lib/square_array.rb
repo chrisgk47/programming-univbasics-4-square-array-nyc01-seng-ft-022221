@@ -7,11 +7,12 @@ def square_array(numbers)
     numbers[count] ** 2
     count += 1
   end
-  numbers
 
   while count <new_numbers.length do
     new_numbers[count] ** 2
     count += 1
   end
+
+  numbers
   new_numbers
 end
