@@ -3,10 +3,8 @@ def square_array(numbers)
   count = 0
 
   while count < 2 do
-    {
-      numbers[count] ** 2
+      (numbers[count]) ** 2
       count += 1
-    }
   end
   numbers
 end
