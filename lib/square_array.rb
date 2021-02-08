@@ -4,13 +4,13 @@ def square_array(numbers)
   count = 0
 
   while count < numbers.length do
-    numbers[0,2] ** 2
+    numbers[count] ** 2
     count += 1
   end
   square_array(numbers)
 
   while count <new_numbers.length do
-    new_numbers[0,3] ** 2
+    new_numbers[count] ** 2
     count += 1
   end
   square_array(new_numbers)
