@@ -3,8 +3,8 @@ def square_array(array)
   new_numbers = [9, 10, 16, 25]
   count = 0
   while count < array.length do
-    array.to_i[numbers] ** 2
-    array.to_i[new_numbers] ** 2
+    array[numbers.to_i] ** 2
+    array[new_numbers.to_i] ** 2
     count += 1
   end
   array(numbers)
